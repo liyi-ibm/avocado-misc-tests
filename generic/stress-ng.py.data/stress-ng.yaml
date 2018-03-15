@@ -1,5 +1,5 @@
 workers: null
-ttimeout: '5m'
+ttimeout: '60'
 verify: True
 syslog: True
 metrics: True

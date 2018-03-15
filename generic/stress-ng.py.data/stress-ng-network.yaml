@@ -1,0 +1,11 @@
+workers: null
+ttimeout: '60'
+verify: True
+syslog: True
+metrics: True
+maximize: True
+times: True
+aggressive: True
+class: 'network'
+stressors: null
+exclude: null

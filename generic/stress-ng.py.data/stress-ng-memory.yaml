@@ -1,0 +1,12 @@
+workers: 1
+verify: True
+syslog: True
+metrics: True
+maximize: True
+times: True
+aggressive: True
+class: 'memory'
+parallel: False
+stressors: 'bsearch context hsearch lsearch matrix  memcpy null pipe qsort stack str stream  tsearch vm-rw wcs zero mlock mmapfork mmapmany mremap shm-sysv vm-splice'
+v_stressors: 'malloc mincore vm bigheap brk mmap'
+exclude: 'oom-pipe,lockbus,membarrier'
